@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  h1.title {
+    color: black;
+  }
+
+  .header-bg {
+    background-color: slateblue;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .logo {
+    font-weight: bold;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hero-title-1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+
+  .hero-title-2 {
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+
+  .section-bg {
+    background-color: #ecf0f1;
+  }
+
+  .building-img {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+  }
+
+  .navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .navbar .navbtn {
+    display: none;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    margin: 0 10px;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .btn a {
+    padding: 10px 20px;
+    border-radius: 5px solid white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .btn a:hover {
+    background-color: slateblue;
+    color: white;
+  }
+
+  .title {
+    text-align: center;
+    color: white;
+  }
+
+  .sub-title {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .title-1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .flexc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    background: slateblue;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .footer-container {
+    background-color: slateblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .footer-bg {
+    background-color: black;
+    color: white;
+  }
+
+  .footer-section {
+    width: 24%;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    border-top: 3px solid whitesmoke;
+    text-align: center;
+    padding: 10px;
+    background-color: slateblue;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    transition: background 0.3s ease;
+  }
+
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    background: #fff;
+    border-color: #aaa;
+    outline: none;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 15px;
+    background: slateblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+
+  .form-group button:hover {
+    background: #5a55d1;
+  }
